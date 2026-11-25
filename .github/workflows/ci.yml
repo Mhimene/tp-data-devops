@@ -25,6 +25,9 @@ jobs:
       - name: Exécuter le pipeline
         run: python pipeline.py
 
+      - name: Construire l'image Docker
+        run: docker build -t pipeline-data .
+
       - name: Publier les résultats
         uses: actions/upload-artifact@v7
         with:
