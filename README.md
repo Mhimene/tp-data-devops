@@ -1,6 +1,6 @@
 # Pipeline de données Bureau&Co
 
-Auteur : Prénom Nom
+Auteur : Melissa HIMENE
 
 Ce projet nettoie le fichier des ventes et calcule le chiffre d'affaires par ville.
 
